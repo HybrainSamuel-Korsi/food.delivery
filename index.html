@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/logo" href="assests/images/logo.jpg">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+
+
+
+    <!-- appBar / Navigation Button-->
+
+
+    <div class="appBar">
+        <div class="profile">
+            <!-- <div class="profile_img"> -->
+            <span class="profile_avatar"><i class="fa-solid fa-user"></i></span>
+            <div class="location">
+                <div class="wrapper">
+                    <p><span><i class="fa-solid fa-location-dot"></i></span>Delivery to</p>
+                    <p>Hybrain<span><i class="fa-sharp-duotone fa-solid fa-circle-chevron-down drop_btn"
+                                onclick="dropBtn()"></i></span></p>
+                </div>
+
+                <div class="action">
+                    <ul>
+                        <li class="active"><a href="#">Settings</a></li>
+                        <li><a href="#">Update profile</a></li>
+                        <li><a class="danger_btn" href="#">logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_notification">
+            <span><i class="fa-regular fa-bell"></i></span>
+            <sup>2</sup>
+        </div>
+
+    </div>
+
+
+    <!-- ===search bar -->
+
+    <div class="container">
+        <div class="container_form">
+            <div class="form">
+                <form action="#" method="">
+                    <div class="form_control">
+
+                        <input type="text" name="" id="" placeholder="Search Food, restaurant">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </div>
+            <span class="filter_btn"><i class="fa-solid fa-sliders"></i></span>
+        </div>
+    </div>
+
+
+    <!-- === CATEGORIES -->
+
+
+    <div class="container">
+        <div class="header_category">
+            <h4> <span><i class="fa-solid fa-layer-group"></i></span>Food Category
+                <p>Enjoy our delicious meals </p>
+            </h4>
+            <small>Scroll for more <span><i class="fa-solid fa-arrows-left-right"></i></span></small>
+        </div>
+        <div class="container_category">
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/broculi.jpg" alt="broculi">
+                </div>
+                <h3>Breakfast</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/egg_salad.jpg" alt="broculi">
+                </div>
+                <h3>Launch</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/grilled_beef.jpg" alt="broculi">
+                </div>
+                <h3>Dinner</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/grilled_steak_tomato.jpg" alt="broculi">
+                </div>
+                <h3>Snack</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/grilled_tomato.jpg" alt="broculi">
+                </div>
+                <h3>After Meal</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/broculi.jpg" alt="broculi">
+                </div>
+                <h3>Akple</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/broculi.jpg" alt="broculi">
+                </div>
+                <h3>Drink</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/broculi.jpg" alt="broculi">
+                </div>
+                <h3>Banku</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/broculi.jpg" alt="broculi">
+                </div>
+                <h3>TuoZafi</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/broculi.jpg" alt="broculi">
+                </div>
+                <h3>TuoZafi</h3>
+            </div>
+            <div class="food_items">
+                <div class="food_img">
+                    <img src="./images/broculi.jpg" alt="broculi">
+                </div>
+                <h3>TuoZafi</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Discount -->
+
+    <div class="container">
+        <div class="container_discount">
+            <div class="discount_left">
+                <h4>Up to 40% OFF your first order</h4>
+                <button>Order Now</button>
+            </div>
+            <div class="discount_right">
+                <img src="./images/grilled_steak_tomato.png" alt="">
+            </div>
+        </div>
+        <div class="display">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Recent Orders -->
+
+
+
+    <div class="container">
+        <div class="order_header">
+            <h5><span><i class="fa-solid fa-truck"></i></span> Recently Ordered</h5>
+            <small>See all</small>
+        </div>
+        <div class="container_recent">
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Rice with Stew</small>
+                <div class="price_rating">
+                    <b>GHS 30.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Bank with Okra</small>
+                <div class="price_rating">
+                    <b>GHS 25.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Fufu with pepper Soap</small>
+                <div class="price_rating">
+                    <b>GHS 100.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Rice with Stew</small>
+                <div class="price_rating">
+                    <b>GHS 30.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Rice with Stew</small>
+                <div class="price_rating">
+                    <b>GHS 30.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Rice with Stew</small>
+                <div class="price_rating">
+                    <b>GHS 30.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Rice with Stew</small>
+                <div class="price_rating">
+                    <b>GHS 30.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Rice with Stew</small>
+                <div class="price_rating">
+                    <b>GHS 30.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Rice with Stew</small>
+                <div class="price_rating">
+                    <b>GHS 30.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+            <div class="orders">
+                <img src="./images/grilled_beef.jpg" alt="food-img">
+                <small>Rice with Stew</small>
+                <div class="price_rating">
+                    <b>GHS 30.00</b>
+                    <small><span><i class="fa-regular fa-star"></i></span> 4.0</small>
+                </div>
+                <button>Order</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    </div>
+
+
+
+
+    <!-- bottom navigation bar -->
+
+
+    <div class="container_appbar">
+        <div class="container">
+            <div class="app_items">
+                <ul>
+
+                    <div class="list_items">
+                        <a href="#" class="active"> <span><i class="fa-regular fa-house"></i></span> Home</a>
+                    </div>
+                    <div class="list_items">
+                        <a href="#" > <span><i class="fa-solid fa-file-invoice-dollar"></i></span> Order</a>
+                    </div>
+                    <div class="list_items">
+                        <a href="#"> <span><i class="fa-regular fa-heart"></i></span> Favorite</a>
+                    </div>
+                    <div class="list_items">
+                        <a href="#"> <span><i class="fa-solid fa-user"></i></span> Profile</a>
+                    </div>
+
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="./main.js"></script>
+
+</html>
